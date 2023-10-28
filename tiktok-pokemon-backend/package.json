@@ -1,0 +1,27 @@
+{
+  "name": "tiktok-pokemon-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/redis": "^6.1.1",
+    "axios": "^1.5.1",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.21.0",
+    "fastify-socket.io": "^4.0.0",
+    "nodemon": "^2.0.16",
+    "socket.io": "^4.5.1",
+    "tiktok-live-connector": "^1.0.5",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.6",
+    "typescript": "^5.2.2"
+  }
+}
