@@ -11,7 +11,8 @@ const timeToGuess = 30000
 let connected = false
 
 async function connect() {
-    let tiktokLiveConnection = new WebcastPushConnection("rpgmobilebr");
+    // Set your tiktok username below, if the user is live the backend will start working.
+    let tiktokLiveConnection = new WebcastPushConnection("yourtiktokusername");
     tiktokLiveConnection.connect().then(state => {
         console.info('Successfuly connected to TikTok Live API.')
         connected = true
